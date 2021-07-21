@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B7316FB26A89A000036A904 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316FA26A899FF0036A904 /* AboutViewController.swift */; };
+		7B7316FD26A89A280036A904 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316FC26A89A280036A904 /* MenuViewController.swift */; };
+		7B73170326A89CC00036A904 /* FoodMainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73170226A89CC00036A904 /* FoodMainCollectionViewController.swift */; };
 		CE13E9CF26A777A10078FFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9CE26A777A10078FFD6 /* AppDelegate.swift */; };
 		CE13E9D126A777A10078FFD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9D026A777A10078FFD6 /* SceneDelegate.swift */; };
 		CE13E9D326A777A10078FFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9D226A777A10078FFD6 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B7316FA26A899FF0036A904 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		7B7316FC26A89A280036A904 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7B73170226A89CC00036A904 /* FoodMainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMainCollectionViewController.swift; sourceTree = "<group>"; };
 		CE13E9CB26A777A10078FFD6 /* PreServesApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreServesApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE13E9CE26A777A10078FFD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE13E9D026A777A10078FFD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +111,9 @@
 				CE13E9D026A777A10078FFD6 /* SceneDelegate.swift */,
 				CE13E9D226A777A10078FFD6 /* ViewController.swift */,
 				CE13E9D426A777A10078FFD6 /* Main.storyboard */,
+				7B73170226A89CC00036A904 /* FoodMainCollectionViewController.swift */,
+				7B7316FC26A89A280036A904 /* MenuViewController.swift */,
+				7B7316FA26A899FF0036A904 /* AboutViewController.swift */,
 				CE13E9DA26A777A30078FFD6 /* Assets.xcassets */,
 				CE13E9DC26A777A30078FFD6 /* LaunchScreen.storyboard */,
 				CE13E9DF26A777A30078FFD6 /* Info.plist */,
@@ -262,8 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE13E9D926A777A10078FFD6 /* PreServesApplication.xcdatamodeld in Sources */,
+				7B7316FD26A89A280036A904 /* MenuViewController.swift in Sources */,
 				CE13E9D326A777A10078FFD6 /* ViewController.swift in Sources */,
+				7B73170326A89CC00036A904 /* FoodMainCollectionViewController.swift in Sources */,
 				CE13E9CF26A777A10078FFD6 /* AppDelegate.swift in Sources */,
+				7B7316FB26A89A000036A904 /* AboutViewController.swift in Sources */,
 				CE13E9D126A777A10078FFD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

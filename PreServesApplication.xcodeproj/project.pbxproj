@@ -21,6 +21,7 @@
 		CE13E9E926A777A30078FFD6 /* PreServesApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9E826A777A30078FFD6 /* PreServesApplicationTests.swift */; };
 		CE13E9F426A777A30078FFD6 /* PreServesApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9F326A777A30078FFD6 /* PreServesApplicationUITests.swift */; };
 		CE8A6AA226A9F55A0071C312 /* PostFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A6AA126A9F55A0071C312 /* PostFoodViewController.swift */; };
+		CEAAFFE626AA35FF001DE78D /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAFFE526AA35FF001DE78D /* ResourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		CE13E9F326A777A30078FFD6 /* PreServesApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreServesApplicationUITests.swift; sourceTree = "<group>"; };
 		CE13E9F526A777A30078FFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8A6AA126A9F55A0071C312 /* PostFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFoodViewController.swift; sourceTree = "<group>"; };
+		CEAAFFE526AA35FF001DE78D /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				CE13E9D026A777A10078FFD6 /* SceneDelegate.swift */,
 				CE13E9D226A777A10078FFD6 /* ViewController.swift */,
 				CE13E9D426A777A10078FFD6 /* Main.storyboard */,
+				CEAAFFE526AA35FF001DE78D /* ResourcesViewController.swift */,
 				CE8A6AA126A9F55A0071C312 /* PostFoodViewController.swift */,
 				7B7316FC26A89A280036A904 /* MenuViewController.swift */,
 				7B7316FA26A899FF0036A904 /* AboutViewController.swift */,
@@ -280,6 +283,7 @@
 			files = (
 				CE13E9D926A777A10078FFD6 /* PreServesApplication.xcdatamodeld in Sources */,
 				7B7316FD26A89A280036A904 /* MenuViewController.swift in Sources */,
+				CEAAFFE626AA35FF001DE78D /* ResourcesViewController.swift in Sources */,
 				CE8A6AA226A9F55A0071C312 /* PostFoodViewController.swift in Sources */,
 				CE13E9D326A777A10078FFD6 /* ViewController.swift in Sources */,
 				CE13E9CF26A777A10078FFD6 /* AppDelegate.swift in Sources */,

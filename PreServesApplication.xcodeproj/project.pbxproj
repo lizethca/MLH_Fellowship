@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B69E19826AA160C0072C910 /* Rolling Bold Free Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B69E19726AA160B0072C910 /* Rolling Bold Free Version.ttf */; };
+		7B69E19A26AA16550072C910 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B69E19926AA16550072C910 /* Montserrat-Regular.ttf */; };
 		7B7316FB26A89A000036A904 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316FA26A899FF0036A904 /* AboutViewController.swift */; };
 		7B7316FD26A89A280036A904 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316FC26A89A280036A904 /* MenuViewController.swift */; };
 		CE13E9CF26A777A10078FFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9CE26A777A10078FFD6 /* AppDelegate.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B69E19726AA160B0072C910 /* Rolling Bold Free Version.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rolling Bold Free Version.ttf"; sourceTree = "<group>"; };
+		7B69E19926AA16550072C910 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		7B7316FA26A899FF0036A904 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		7B7316FC26A89A280036A904 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CE13E9CB26A777A10078FFD6 /* PreServesApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreServesApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,8 +119,10 @@
 				7B7316FC26A89A280036A904 /* MenuViewController.swift */,
 				7B7316FA26A899FF0036A904 /* AboutViewController.swift */,
 				CE13E9DA26A777A30078FFD6 /* Assets.xcassets */,
+				7B69E19726AA160B0072C910 /* Rolling Bold Free Version.ttf */,
 				CE13E9DC26A777A30078FFD6 /* LaunchScreen.storyboard */,
 				CE13E9DF26A777A30078FFD6 /* Info.plist */,
+				7B69E19926AA16550072C910 /* Montserrat-Regular.ttf */,
 				CE13E9D726A777A10078FFD6 /* PreServesApplication.xcdatamodeld */,
 			);
 			path = PreServesApplication;
@@ -244,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE13E9DE26A777A30078FFD6 /* LaunchScreen.storyboard in Resources */,
+				7B69E19826AA160C0072C910 /* Rolling Bold Free Version.ttf in Resources */,
 				CE13E9DB26A777A30078FFD6 /* Assets.xcassets in Resources */,
+				7B69E19A26AA16550072C910 /* Montserrat-Regular.ttf in Resources */,
 				CE13E9D626A777A10078FFD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

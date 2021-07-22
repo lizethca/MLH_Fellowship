@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7B7316FB26A89A000036A904 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316FA26A899FF0036A904 /* AboutViewController.swift */; };
 		7B7316FD26A89A280036A904 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316FC26A89A280036A904 /* MenuViewController.swift */; };
-		7B73170326A89CC00036A904 /* FoodMainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73170226A89CC00036A904 /* FoodMainCollectionViewController.swift */; };
 		CE13E9CF26A777A10078FFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9CE26A777A10078FFD6 /* AppDelegate.swift */; };
 		CE13E9D126A777A10078FFD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9D026A777A10078FFD6 /* SceneDelegate.swift */; };
 		CE13E9D326A777A10078FFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9D226A777A10078FFD6 /* ViewController.swift */; };
@@ -19,6 +18,9 @@
 		CE13E9DE26A777A30078FFD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE13E9DC26A777A30078FFD6 /* LaunchScreen.storyboard */; };
 		CE13E9E926A777A30078FFD6 /* PreServesApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9E826A777A30078FFD6 /* PreServesApplicationTests.swift */; };
 		CE13E9F426A777A30078FFD6 /* PreServesApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13E9F326A777A30078FFD6 /* PreServesApplicationUITests.swift */; };
+		CEA248ED26A93DF40043D6BE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA248EC26A93DF40043D6BE /* CollectionViewCell.swift */; };
+		CEA248EF26A9406E0043D6BE /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA248EE26A9406E0043D6BE /* FoodCollectionViewCell.swift */; };
+		CED4DA6226A8B19600048EFF /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4DA6126A8B19600048EFF /* FoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,6 @@
 /* Begin PBXFileReference section */
 		7B7316FA26A899FF0036A904 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		7B7316FC26A89A280036A904 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		7B73170226A89CC00036A904 /* FoodMainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMainCollectionViewController.swift; sourceTree = "<group>"; };
 		CE13E9CB26A777A10078FFD6 /* PreServesApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreServesApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE13E9CE26A777A10078FFD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE13E9D026A777A10078FFD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +58,9 @@
 		CE13E9EF26A777A30078FFD6 /* PreServesApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreServesApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE13E9F326A777A30078FFD6 /* PreServesApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreServesApplicationUITests.swift; sourceTree = "<group>"; };
 		CE13E9F526A777A30078FFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA248EC26A93DF40043D6BE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CEA248EE26A9406E0043D6BE /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		CED4DA6126A8B19600048EFF /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 		CE13E9C226A777A10078FFD6 = {
 			isa = PBXGroup;
 			children = (
+				CEA248EC26A93DF40043D6BE /* CollectionViewCell.swift */,
 				CE13E9CD26A777A10078FFD6 /* PreServesApplication */,
 				CE13E9E726A777A30078FFD6 /* PreServesApplicationTests */,
 				CE13E9F226A777A30078FFD6 /* PreServesApplicationUITests */,
@@ -111,7 +116,8 @@
 				CE13E9D026A777A10078FFD6 /* SceneDelegate.swift */,
 				CE13E9D226A777A10078FFD6 /* ViewController.swift */,
 				CE13E9D426A777A10078FFD6 /* Main.storyboard */,
-				7B73170226A89CC00036A904 /* FoodMainCollectionViewController.swift */,
+				CEA248EE26A9406E0043D6BE /* FoodCollectionViewCell.swift */,
+				CED4DA6126A8B19600048EFF /* FoodViewController.swift */,
 				7B7316FC26A89A280036A904 /* MenuViewController.swift */,
 				7B7316FA26A899FF0036A904 /* AboutViewController.swift */,
 				CE13E9DA26A777A30078FFD6 /* Assets.xcassets */,
@@ -270,10 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA248EF26A9406E0043D6BE /* FoodCollectionViewCell.swift in Sources */,
+				CEA248ED26A93DF40043D6BE /* CollectionViewCell.swift in Sources */,
 				CE13E9D926A777A10078FFD6 /* PreServesApplication.xcdatamodeld in Sources */,
 				7B7316FD26A89A280036A904 /* MenuViewController.swift in Sources */,
+				CED4DA6226A8B19600048EFF /* FoodViewController.swift in Sources */,
 				CE13E9D326A777A10078FFD6 /* ViewController.swift in Sources */,
-				7B73170326A89CC00036A904 /* FoodMainCollectionViewController.swift in Sources */,
 				CE13E9CF26A777A10078FFD6 /* AppDelegate.swift in Sources */,
 				7B7316FB26A89A000036A904 /* AboutViewController.swift in Sources */,
 				CE13E9D126A777A10078FFD6 /* SceneDelegate.swift in Sources */,
